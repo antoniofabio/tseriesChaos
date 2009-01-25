@@ -11,7 +11,7 @@ embedd(x, m, d, lags)
 \item{x}{ time series}
 \item{m}{ embedding dimension (if lags missed) }
 \item{d}{ time delay (if lags missed) }
-\item{lags} { vector of lags (if m and d are missed) }
+\item{lags}{ vector of lags (if m and d are missed) }
 }
 \details{
 Embedding of a time series with provided delay and dimension parameters.
