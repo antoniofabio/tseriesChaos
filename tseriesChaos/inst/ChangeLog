@@ -9,7 +9,7 @@ fixed strings for R 2.5.0
 
 0.1-6:
 fixed docs for the new R 2.3.0 release
-	
+
 0.1-5:
 added plotting options to 'mutual'
 improved recurrence plot
