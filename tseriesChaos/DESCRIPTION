@@ -1,9 +1,9 @@
 Package: tseriesChaos
 Title: Analysis of nonlinear time series
 Date: 2010-09-16
-Version: 0.1-11
+Version: 0.1-12
 Author: Antonio, Fabio Di Narzo
-Depends: R (>= 2.2.0), odesolve
+Depends: R (>= 2.2.0), deSolve
 Suggests: scatterplot3d
 LazyData: yes
 LazyLoad: yes
