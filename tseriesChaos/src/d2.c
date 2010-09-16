@@ -50,7 +50,8 @@ INIT VARIABLES
 			tmpd = 0.0; /*init distance to 0*/
 			for(w=0; w<m; w++) { /*for each dimension...*/
 				tmpd += sqr(series[i+w*d] - series[j+w*d]); /*update squared euclidean distance*/
-				hist[w][MIN((long) ( (log(tmpd) - lepsM )/a ), neps-1 )] ++; /*update histogram for current dimension*/
+			        int ind = (log(tmpd) - lepsM)/a; /*FIX thanks to prof. B. Ripley*/
+                	        hist[w][MIN(MAX(ind, 0), neps-1)]++; /*update histogram for current dimension*/
 			} /*end for each dimension*/
 		} /*end for each upper-right point*/
 	} /*end for each point*/

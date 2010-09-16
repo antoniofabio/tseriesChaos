@@ -1,3 +1,6 @@
+0.1-10:
+fix bug in d2.c: crashing on corner cases. Patch by B. Ripley
+
 0.1-9:
 fixed embedd.Rd syntax warning under R-2.9.0-devel
 
