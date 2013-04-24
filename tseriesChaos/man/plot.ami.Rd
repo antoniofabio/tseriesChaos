@@ -4,15 +4,12 @@
 \description{
 Plotting method for objects inheriting from class '"ami"'.
 }
-\synopsis{
-plot.ami(x, main=NULL, ...)
-}
 \usage{
-plot.ami(x, ...)
+plot.ami(x, main = NULL, ...)
 }
 \arguments{
   \item{x}{'"ami"' object}
-  \item{...}{additional graphical arguments}
+  \item{main, ...}{additional graphical arguments}
 }
 \details{
 Plots the ami for each lag in \code{x}.
