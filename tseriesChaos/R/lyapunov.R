@@ -14,7 +14,7 @@ lyap_k <- function(series, m, d, t, k=1, ref, s, eps) {
 	cat("Keeping ", length(ref)," reference points\n")
 	cat("Following points\n")
 	res <- follow_points(series, m=m, d=d, s=s, ref=ref, nearest=nearest, k=k)
-	ts(res, freq=frequency(series), start=0)
+	ts(res, frequency = frequency(series), start=0)
 }
 
 lyap <- function(dsts, start, end) {

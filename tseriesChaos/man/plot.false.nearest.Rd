@@ -5,7 +5,7 @@
 Plotting method for objects inheriting from class '"false.nearest"'.
 }
 \usage{
-plot.false.nearest(x, ...)
+  \method{plot}{false.nearest}(x, ...)
 }
 \arguments{
   \item{x}{'"false.nearest"' object}

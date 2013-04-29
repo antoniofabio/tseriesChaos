@@ -5,7 +5,7 @@
 Printing method for objects inheriting from class '"d2"'.
 }
 \usage{
-print.d2(x, ...)
+  \method{print}{d2}(x, ...)
 }
 \arguments{
   \item{x}{'"d2"' object}

@@ -20,7 +20,7 @@ embedd <- function (x, m, d, lags) {
     }
   }
 
-  res <- matrix(res, nr = nrow(res), nc = ncol(res))
+  res <- matrix(res, nrow = nrow(res), ncol = ncol(res))
   colnames(res) <- names
   res
 }

@@ -5,7 +5,7 @@
 Plotting method for objects inheriting from class '"ami"'.
 }
 \usage{
-plot.ami(x, main = NULL, ...)
+ \method{plot}{ami}(x, main = NULL, ...)
 }
 \arguments{
   \item{x}{'"ami"' object}

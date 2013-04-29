@@ -5,7 +5,7 @@
 Printing method for objects inheriting from class '"false.nearest"'.
 }
 \usage{
-print.false.nearest(x, ...)
+\method{print}{false.nearest}(x, ...)
 }
 \arguments{
   \item{x}{'"false.nearest"' object}

@@ -5,7 +5,7 @@
 Plotting method for objects inheriting from class '"d2"'.
 }
 \usage{
-plot.d2(x, ...)
+  \method{plot}{d2}(x, ...)
 }
 \arguments{
   \item{x}{'"d2"' object}
