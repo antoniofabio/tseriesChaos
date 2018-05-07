@@ -10,7 +10,7 @@ LazyLoad: yes
 Description: Routines for the analysis of nonlinear time series. This
         work is largely inspired by the TISEAN project, by Rainer
         Hegger, Holger Kantz and Thomas Schreiber:
-        http://www.mpipks-dresden.mpg.de/~tisean/
+        http://www.mpipks-dresden.mpg.de/~tisean/ .
 Maintainer: Antonio Fabio Di Narzo <antonio.fabio@gmail.com>
 License: GPL-2
 Packaged: 2010-02-24 09:23:38 UTC; adinarzo
