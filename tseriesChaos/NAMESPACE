@@ -19,3 +19,9 @@ print.false.nearest,
 plot.false.nearest)
 
 useDynLib(tseriesChaos)
+
+importFrom("grDevices", "gray")
+importFrom("deSolve", "lsoda")
+importFrom("graphics", "abline", "filled.contour", "lines", "plot")
+importFrom("stats", "as.ts", "dist", "end", "frequency", "lm", "sd", "lag",
+             "start", "time", "ts", "ts.intersect", "tsp", "window")
